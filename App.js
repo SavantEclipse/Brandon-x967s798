@@ -1,11 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import HomeScreen from "./src/components/HomeScreen/HomeScreen";
 
 export default function App() {
-  console.log("Hello World");
   return (
     <View style={styles.container}>
-      <Text style={{ backgroundColor: "cyan" }}>SSGL App</Text>
+      <HomeScreen />
       <StatusBar style="auto" />
     </View>
   );
@@ -14,8 +14,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignSelf: "stretch",
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    padding: 20,
+    paddingTop: 40,
   },
 });
