@@ -1,2 +1,2 @@
-<!-- SSGL app Notes -->
-<!-- Team members: Aidil, CJ, Lauren, Brandon -->
+SSGL app Notes
+Team members: Aidil, CJ, Lauren, Brandon
