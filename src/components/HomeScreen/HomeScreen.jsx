@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
+      {/* test */}
       <Header />
       <Categories />
 
