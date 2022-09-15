@@ -25,6 +25,7 @@ export default function Header() {
 const styles = StyleSheet.create({
   headerContainer: {
     height: 200,
+    paddingHorizontal: 20,
   },
   headerTitle: {
     width: 200,
