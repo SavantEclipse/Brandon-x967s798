@@ -7,7 +7,7 @@ export default function HomeScreen() {
       {/* test */}
       <Header />
       <Categories />
-
+{/*Brandon hear in main  */}
       {/* SearchBar  */}
 
       {/* Sidebar */}
